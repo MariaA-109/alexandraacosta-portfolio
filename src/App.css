@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .relative:hover .absolute {
+    opacity: 1;
+  }
+}
+.btn-primary {
+  @apply bg-200;
+  @apply border-200;
+  @apply text-950;
+  @apply hover:bg-300;
+  @apply hover:border-300;
+  @apply hover:text-50;
+}
+
+.btn-secondary {
+  @apply bg-50;
+  @apply border-500;
+  @apply text-black;
+  @apply hover:bg-100;
+  @apply hover:border-200;
+  @apply hover:text-900;
+  @apply active:bg-200;
+}
+
+.badge {
+  @apply bg-50;
+  @apply border-50;
+  @apply text-950;
+  @apply p-4;
+  @apply font-semibold;
+}
