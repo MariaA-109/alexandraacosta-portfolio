@@ -3,8 +3,8 @@ import { UilLinkedin } from "@iconscout/react-unicons";
 import { UilEnvelopeAlt } from "@iconscout/react-unicons";
 import { UilGithub } from "@iconscout/react-unicons";
 import { Link } from "react-router-dom";
-//import Typed from "typed.js";
-//import { useEffect, useRef } from "react";
+import Typed from "typed.js";
+import { useEffect, useRef } from "react";
 
 function Hero() {
   const handleEmailClick = () => {
@@ -19,7 +19,7 @@ function Hero() {
     });
   };
 
-  /* const el = useRef(null);
+  const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: ["web development :) "],
@@ -34,7 +34,7 @@ function Hero() {
     return () => {
       typed.destroy();
     };
-  }, []);*/
+  }, []);
 
   return (
     <div>
@@ -51,7 +51,7 @@ function Hero() {
             <p className="text-3xl py-6 leading-normal">
               and I made a career change to web development :)
             </p>
-            {/* <span className="text-3xl py-6" ref={el}></span> */}
+            <span className="text-3xl py-6" ref={el}></span>
             <div className="flex w-full mt-8 mb-8 justify-center">
               <Link
                 to="https://www.linkedin.com/in/alexandra-acosta-aviles/"
