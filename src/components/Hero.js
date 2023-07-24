@@ -49,7 +49,7 @@ function Hero() {
             </h1>
 
             <p className="text-3xl py-6 leading-normal">
-              and I made a career change to web development :)
+              and I made a career change to
             </p>
             <span className="text-3xl py-6" ref={el}></span>
             <div className="flex w-full mt-8 mb-8 justify-center">
