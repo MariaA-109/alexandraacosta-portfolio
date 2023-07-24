@@ -9,7 +9,7 @@ import { UilCss3Simple } from "@iconscout/react-unicons";
 function About() {
   return (
     <div>
-      <div className="text-2xl p-2 m-8 md:text-4xl lg:text-4xl">
+      <div className="text-2xl p-2 m-8 md:text-3xl lg:text-3xl">
         <div className="flex items-center">
           <span id="about">ABOUT</span>
           <span className="mx-2">ME</span>

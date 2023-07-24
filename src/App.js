@@ -7,6 +7,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { UilAngleDoubleUp } from "@iconscout/react-unicons";
+import ExtraProjects from "./components/ExtraProjects";
 
 function App() {
   const scrollToTop = () => {
@@ -20,6 +21,7 @@ function App() {
         <Hero id="hero" />
         <About id="about" />
         <Projects id="projects" />
+        <ExtraProjects id="extraprojects" />
         <Skills id="skills" />
       </div>
       <div className="flex justify-end">

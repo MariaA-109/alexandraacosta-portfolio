@@ -41,14 +41,14 @@ function Hero() {
       <div className="flex justify-center hero min-h-[68vh] m-2">
         <div className="hero-content text-center">
           <div className="max-w-lg">
-            <h1 className="relative text-5xl font-bold">
+            <h1 className="relative text-4xl font-bold lg:text-5xl">
               Hi, I am
               <span className="ml-1 mr-1 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-100 relative inline-block">
                 <span className="relative"> Alexandra</span>
               </span>
             </h1>
 
-            <p className="text-3xl py-6 leading-normal">
+            <p className="text-3xl py-6 leading-normal lg:text-4xl">
               and I made a career change to
             </p>
             <span className="text-3xl py-6" ref={el}></span>

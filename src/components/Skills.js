@@ -4,7 +4,7 @@ function Skills() {
   return (
     <div>
       <div className="text-4xl px-1 ">
-        <div className="p-2 m-10 text-2xl md:text-4xl lg:text-4xl">
+        <div className="p-2 m-10 text-2xl md:text-3xl lg:text-3xl">
           <div className="flex items-center">
             <span className="mx-2" id="skills">
               SKILLS
