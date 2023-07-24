@@ -15,6 +15,7 @@ module.exports = {
       900: "#064e31",
       950: "#022c1b",
       black: "#0a0a0a",
+      divider: "rgb(209 213 219)",
     },
   },
   corePlugins: {

@@ -4,13 +4,13 @@ function Skills() {
   return (
     <div>
       <div className="text-4xl px-1 ">
-        <div className="text-4xl p-2 m-10">
+        <div className="p-2 m-10 text-2xl md:text-4xl lg:text-4xl">
           <div className="flex items-center">
             <span className="mx-2" id="skills">
               SKILLS
             </span>
 
-            <div className="flex-grow border-t-2"></div>
+            <div className="flex-grow border-t border-divider"></div>
           </div>
         </div>
         <div className="flex flex-wrap gap-6 p-8 justify-center">

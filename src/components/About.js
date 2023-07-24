@@ -9,14 +9,14 @@ import { UilCss3Simple } from "@iconscout/react-unicons";
 function About() {
   return (
     <div>
-      <div className="text-4xl p-2 m-8">
+      <div className="text-2xl p-2 m-8 md:text-4xl lg:text-4xl">
         <div className="flex items-center">
           <span id="about">ABOUT</span>
           <span className="mx-2">ME</span>
-          <div className="flex-grow border-t-2"></div>
+          <div className="flex-grow border-t border-divider"></div>
         </div>
       </div>
-      <div className="hero min-h-[70vh] p-4">
+      <div className="hero min-h-[70vh] p-2 md:p-4 lg:p-4">
         <div className="hero-content flex-col lg:flex-row">
           <img
             src={portfolio}
@@ -24,9 +24,9 @@ function About() {
             alt="img-portfolio"
           />
           <div>
-            <p className="p-6 text-sm text-justify md:text-base lg:text-lg leading-8 md:leading-10 lg:leading-10  lg:text-justify md:text-justify">
+            <p className="p-4 text-sm text-justify md:p-6 md:text-base lg:text-lg leading-8 md:leading-10 lg:p-6 lg:leading-10 lg:text-justify md:text-justify">
               With a background in
-              <span class="ml-1 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-red-50 relative inline-block">
+              <span class="ml-1 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-50 relative inline-block">
                 <span class="relative"> social studies, </span>
               </span>
               I am transitioning into coding to pursue a career as a Full Stack
@@ -37,7 +37,7 @@ function About() {
               <br></br> My social studies background equips me with valuable
               skills in research, critical thinking, and effective
               communication. Currently, I am looking for a new challenge as a
-              <span class="ml-1 mr-1 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-red-50 relative inline-block">
+              <span class="ml-1 mr-1 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-50 relative inline-block">
                 <span class="relative"> Full Stack Web Developer </span>
               </span>
               and I am open to work hybrid or remote.

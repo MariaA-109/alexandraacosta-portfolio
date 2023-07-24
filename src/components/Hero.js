@@ -22,7 +22,7 @@ function Hero() {
   const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["development :) "],
+      strings: ["web development :) "],
       startDelay: 300,
       typeSpeed: 100,
       backSpeed: 100,
@@ -43,8 +43,8 @@ function Hero() {
           <div className="max-w-lg">
             <h1 className="relative text-5xl font-bold">
               Hi, I am
-              <span className="ml-1 mr-1 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-red-100 relative inline-block">
-                <span className="relative"> Alexandra </span>
+              <span className="ml-1 mr-1 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-100 relative inline-block">
+                <span className="relative"> Alexandra</span>
               </span>
             </h1>
 
