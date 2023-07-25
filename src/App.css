@@ -12,7 +12,9 @@
   @apply text-950;
   @apply hover:bg-200;
   @apply hover:border-200;
-  @apply hover:text-50;
+  @apply hover:text-950;
+  @apply hover:scale-105;
+  @apply hover:transition-all;
 }
 
 .btn-secondary {
@@ -23,6 +25,7 @@
   @apply hover:border-200;
   @apply hover:text-900;
   @apply active:bg-200;
+  @apply hover:scale-105;
 }
 
 .badge {
