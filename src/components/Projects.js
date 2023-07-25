@@ -42,8 +42,9 @@ function Projects() {
                 className="rounded-md w-fit max-h-96"
               ></img>
             </div>
+
             <div className="card w-fit max-h-96 bg-base-100 shadow-xl align-center md:h-72 lg:ml-4">
-              <div className=" card-body w-fit max-h-96 md:h-72 lg:ml-4">
+              <div className="card-body w-fit max-h-96 md:h-72 lg:ml-2 p-4">
                 <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 relative inline-block w-fit p-1">
                   <h2 className="relative card-title"> heyDaisy </h2>
                 </span>
@@ -54,22 +55,26 @@ function Projects() {
                   connect with others through chat or join planned events to
                   improve their language skills.
                 </p>
+                <div className="flex flex-wrap gap-1 justify-start">
+                  <div className="badge badge-primary">React.js</div>
+                  <div className="badge badge-primary">daisyUI</div>
+                  <div className="badge badge-primary">MongoDB</div>
+                  <div className="badge badge-primary">Firebase</div>
+                </div>
 
                 <div className="card-actions justify-end">
-                  <div className="card-actions justify-end btn-container flex">
-                    <button
-                      className="btn btn-primary md:w-auto mr-2"
-                      onClick={handleButtonClickLiveDaisy}
-                    >
-                      LIVE
-                    </button>
-                    <button
-                      className="btn btn-primary md:w-auto"
-                      onClick={handleButtonClickDaisy}
-                    >
-                      CODE
-                    </button>
-                  </div>
+                  <button
+                    className="btn btn-primary md:w-auto mr-2"
+                    onClick={handleButtonClickLiveDaisy}
+                  >
+                    LIVE
+                  </button>
+                  <button
+                    className="btn btn-primary md:w-auto"
+                    onClick={handleButtonClickDaisy}
+                  >
+                    CODE
+                  </button>
                 </div>
               </div>
             </div>
@@ -84,8 +89,8 @@ function Projects() {
                 className="rounded-md w-full max-h-96 "
               ></img>
             </div>
-            <div className="flex card w-fit max-h-96 bg-base-100 shadow-xl align-center md:h-72 lg:ml-4">
-              <div className="card-body md:h-80">
+            <div className="card w-fit max-h-96 bg-base-100 shadow-xl align-center md:h-72 lg:ml-4">
+              <div className="card-body w-fit max-h-96 md:h-72 lg:ml-2 p-4">
                 <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 relative inline-block w-fit p-1">
                   <h2 className="relative card-title"> Pokefight </h2>
                 </span>
@@ -96,6 +101,12 @@ function Projects() {
                   and abilities, trainers can strategize and build their
                   ultimate team for thrilling battles.
                 </p>
+                <div className="flex flex-wrap gap-1 justify-start">
+                  <div className="badge badge-primary">React.js</div>
+                  <div className="badge badge-primary">Tailwindcss</div>
+                  <div className="badge badge-primary">MongoDB</div>
+                  <div className="badge badge-primary">API</div>
+                </div>
                 <div className="card-actions justify-end">
                   <button
                     className="btn btn-primary"
@@ -123,8 +134,8 @@ function Projects() {
                 className="rounded-md w-full max-h-96 "
               ></img>
             </div>
-            <div className="flex card w-fit max-h-96 bg-base-100 shadow-xl align-center md:h-72 lg:ml-4">
-              <div className="card-body md:w-full md:h-80 ">
+            <div className="card w-fit max-h-96 bg-base-100 shadow-xl align-center md:h-72 lg:ml-4">
+              <div className="card-body w-fit max-h-96 md:h-72 lg:ml-2 p-4">
                 <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 relative inline-block w-fit p-1">
                   <h2 className="relative card-title"> Happy Tails Haven</h2>
                 </span>
@@ -135,6 +146,12 @@ function Projects() {
                   cats, offering a user-friendly interface for potential
                   adopters.
                 </p>
+                <div className="flex flex-wrap gap-1 justify-start">
+                  <div className="badge badge-primary">React.js</div>
+                  <div className="badge badge-primary">Contentful</div>
+                  <div className="badge badge-primary">MongoDB</div>
+                  <div className="badge badge-primary">API</div>
+                </div>
                 <div className="card-actions justify-end">
                   <button
                     className="btn btn-primary"
@@ -163,7 +180,7 @@ function Projects() {
               ></img>
             </div>
             <div className="flex card w-fit max-h-96 bg-base-100 shadow-xl align-center md:h-72 lg:ml-4">
-              <div className="card-body md:h-80">
+              <div className="card-body w-fit max-h-96 md:h-72 lg:ml-2 p-4">
                 <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 relative inline-block w-fit p-1">
                   <h2 className="relative card-title"> Weather App </h2>
                 </span>
@@ -172,6 +189,11 @@ function Projects() {
                   The background color changes according to the temperature of
                   the city you are looking for.
                 </p>
+                <div className="flex flex-wrap gap-1 justify-start">
+                  <div className="badge badge-primary">React.js</div>
+                  <div className="badge badge-primary">Tailwindcss</div>
+                  <div className="badge badge-primary">API</div>
+                </div>
                 <div className="card-actions justify-end">
                   <button
                     className="btn btn-primary"

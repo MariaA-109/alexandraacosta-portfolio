@@ -51,7 +51,10 @@ function Hero() {
             <p className="text-3xl py-6 leading-normal lg:text-4xl">
               and I made a career change to
             </p>
-            <span className="text-3xl py-6" ref={el}></span>
+            <span
+              className="text-3xl py-6 leading-normal lg:text-4xl"
+              ref={el}
+            ></span>
             <div className="flex w-full mt-8 mb-8 justify-center">
               <Link
                 to="https://www.linkedin.com/in/alexandra-acosta-aviles/"

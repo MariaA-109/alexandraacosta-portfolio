@@ -10,8 +10,8 @@
   @apply bg-200;
   @apply border-200;
   @apply text-950;
-  @apply hover:bg-300;
-  @apply hover:border-300;
+  @apply hover:bg-200;
+  @apply hover:border-200;
   @apply hover:text-50;
 }
 

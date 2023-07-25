@@ -15,14 +15,15 @@ function Skills() {
         </div>
         <div className="flex flex-wrap gap-6 p-8 justify-center">
           <div className="badge badge-primary">Bootstrap</div>
-          <div className="badge badge-primary">Tailwind</div>
+          <div className="badge badge-primary">Tailwindcss</div>
           <div className="badge badge-primary">daisyUI</div>
           <div className="badge badge-primary">Responsive Webdesign</div>
           <div className="badge badge-primary">MongoDB</div>
           <div className="badge badge-primary">Node.js</div>
-          <div className="badge badge-primary">Express.js</div>
+          <div className="badge badge-primary">Express</div>
           <div className="badge badge-primary">UX & UI Design</div>
           <div className="badge badge-primary">Firebase</div>
+          <div className="badge badge-primary">SQL</div>
         </div>
       </div>
     </div>

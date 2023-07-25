@@ -1,5 +1,5 @@
 import React from "react";
-import portfolio from "../img/portfolio.jpg";
+import portfolio from "../img/portfolio.png";
 import { UilGithub } from "@iconscout/react-unicons";
 import { UilReact } from "@iconscout/react-unicons";
 import { UilJavaScript } from "@iconscout/react-unicons";
