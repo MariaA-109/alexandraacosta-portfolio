@@ -13,8 +13,8 @@ function ExtraProjects() {
           <div className="flex-grow border-t ml-2 border-divider"></div>
         </div>
       </div>
-      <div className="flex justify-center py-8">
-        <div className="carousel rounded-box w-3/4">
+      <div className="flex justify-center py-8 h-44 md:h-auto lg:h-auto">
+        <div className="carousel rounded-box w-3/4 ">
           <div className="carousel-item w-1/2">
             <img src={weatherCloudy} alt="weather app" className="w-full" />
           </div>
