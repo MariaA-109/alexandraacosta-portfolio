@@ -26,7 +26,7 @@ function Projects() {
 
   return (
     <div className="p-4">
-      <div className="text-2xl p-2 m-8 md:text-3xl lg:text-3xl">
+      <div className="text-2xl p-2 m-4 md:text-3xl lg:text-3xl">
         <div className="flex items-center">
           <span id="projects">PROJECTS</span>
           <div className="flex-grow border-t ml-2 border-divider"></div>

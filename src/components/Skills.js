@@ -3,12 +3,10 @@ import React from "react";
 function Skills() {
   return (
     <div>
-      <div className="text-4xl px-1 ">
+      <div>
         <div className="text-2xl p-2 m-8 md:text-3xl lg:text-3xl">
           <div className="flex items-center">
-            <span className="mx-2" id="skills">
-              SKILLS
-            </span>
+            <span id="skills">SKILLS</span>
 
             <div className="flex-grow border-t border-divider"></div>
           </div>
