@@ -14,6 +14,10 @@ function Projects() {
   const handleButtonClickLiveAnimal = () => {
     window.open("https://main--fancy-cuchufli-e21b53.netlify.app/", "_blank");
   };
+  const handleButtonClickLiveWeather = () => {
+    window.open("https://weather-app-colors.netlify.app", "_blank");
+  };
+
   const handleButtonClickPokemon = () => {
     window.open("https://github.com/MariaA-109/pokefight-frontend", "_blank");
   };
@@ -22,6 +26,9 @@ function Projects() {
   };
   const handleButtonClickDaisy = () => {
     window.open("https://github.com/MariaA-109/heyDaisy-frontend", "_blank");
+  };
+  const handleButtonClickWeather = () => {
+    window.open("https://github.com/MariaA-109/weatherapp-react", "_blank");
   };
 
   return (
@@ -33,13 +40,13 @@ function Projects() {
         </div>
       </div>
       <div className="lg:pl-16 lg:pr-16">
-        <div className="py-8 lg:max-w-screen-xl lg:m-auto">
-          <div className="lg:grid lg:grid-cols-2 lg:m-8 sm:flex sm:flex-wrap sm:justify-center md:flex md:flex-wrap md:justify-center ">
-            <div className="flex justify-end bg-base-100 shadow-xl lg:mr-4 md:w-full md:h-72">
+        <div className="py-8 lg:max-w-screen-xl lg:m-auto md:min-w-screen-sm">
+          <div className="lg:grid lg:grid-cols-2 lg:m-8 sm:flex sm:flex-wrap sm:justify-center md:flex md:flex-wrap md:justify-center">
+            <div className="flex justify-end bg-base-100 shadow-xl lg:mr-4 md:h-72 lg:w-full lg:h-auto lg:mt-4">
               <img
                 src={heyDaisy}
                 alt="heyDaisy"
-                className="rounded-md w-full max-h-96 "
+                className="rounded-md w-full max-h-96"
               ></img>
             </div>
 
@@ -197,13 +204,13 @@ function Projects() {
                 <div className="card-actions justify-end">
                   <button
                     className="btn btn-primary"
-                    onClick={handleButtonClickLivePokemon}
+                    onClick={handleButtonClickLiveWeather}
                   >
                     LIVE
                   </button>
                   <button
                     className="btn btn-primary"
-                    onClick={handleButtonClickPokemon}
+                    onClick={handleButtonClickWeather}
                   >
                     CODE
                   </button>

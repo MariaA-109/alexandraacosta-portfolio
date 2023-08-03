@@ -6,6 +6,7 @@
     opacity: 1;
   }
 }
+
 .btn-primary {
   @apply bg-200;
   @apply border-200;
