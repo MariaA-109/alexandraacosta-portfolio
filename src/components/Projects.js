@@ -35,7 +35,7 @@ function Projects() {
       <div className="lg:pl-16 lg:pr-16">
         <div className="py-8">
           <div className="lg:grid lg:grid-cols-2 lg:m-8 sm:flex sm:flex-wrap sm:justify-center md:flex md:flex-wrap md:justify-center ">
-            <div className="flex justify-end bg-base-100 shadow-xl lg:mr-4 md:w-full md:h-72">
+            <div className="flex justify-end bg-base-100 shadow-xl lg:mr-4 md:w-full md:flex-wrap md:h-72">
               <img
                 src={heyDaisy}
                 alt="heyDaisy"
@@ -96,10 +96,10 @@ function Projects() {
                 </span>
                 <p className="text-justify text-sm md:text-base lg:text-base">
                   is an application that integrates data from two APIs to
-                  provide users with comprehensive information about your
-                  favorite Pokémon. With access to extensive stats, movesets,
-                  and abilities, trainers can strategize and build their
-                  ultimate team for thrilling battles.
+                  provide users with comprehensive information about their
+                  favorite Pokémon. With access to stats, move sets and
+                  abilities, trainers can choose a pokémon to fight exciting
+                  battles.
                 </p>
                 <div className="flex flex-wrap gap-1 justify-start">
                   <div className="badge badge-primary">React.js</div>

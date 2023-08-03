@@ -3,6 +3,12 @@ import { UilImport } from "@iconscout/react-unicons";
 import { useState, useEffect } from "react";
 
 function Navbar() {
+  <script
+    src="https://platform.linkedin.com/badges/js/profile.js"
+    async
+    defer
+    type="text/javascript"
+  ></script>;
   const [isMobile, setIsMobile] = useState(false);
 
   const handleResize = () => {
