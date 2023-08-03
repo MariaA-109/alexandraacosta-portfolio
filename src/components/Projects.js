@@ -35,11 +35,11 @@ function Projects() {
       <div className="lg:pl-16 lg:pr-16">
         <div className="py-8">
           <div className="lg:grid lg:grid-cols-2 lg:m-8 sm:flex sm:flex-wrap sm:justify-center md:flex md:flex-wrap md:justify-center ">
-            <div className="flex justify-end bg-base-100 shadow-xl lg:mr-4 md:w-full md:flex-wrap md:h-72">
+            <div className="flex justify-end bg-base-100 shadow-xl lg:mr-4 md:w-full md:h-72">
               <img
                 src={heyDaisy}
-                alt="heyDaisy"
-                className="rounded-md w-fit max-h-96"
+                alt="pokefight"
+                className="rounded-md w-full max-h-96 "
               ></img>
             </div>
 
