@@ -33,12 +33,12 @@ function Projects() {
         </div>
       </div>
       <div className="lg:pl-16 lg:pr-16">
-        <div className="py-8">
+        <div className="py-8 lg:max-w-screen-xl lg:m-auto">
           <div className="lg:grid lg:grid-cols-2 lg:m-8 sm:flex sm:flex-wrap sm:justify-center md:flex md:flex-wrap md:justify-center ">
             <div className="flex justify-end bg-base-100 shadow-xl lg:mr-4 md:w-full md:h-72">
               <img
                 src={heyDaisy}
-                alt="pokefight"
+                alt="heyDaisy"
                 className="rounded-md w-full max-h-96 "
               ></img>
             </div>
@@ -80,7 +80,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="py-8">
+        <div className="py-8 lg:max-w-screen-xl lg:m-auto">
           <div className="lg:grid lg:grid-cols-2 lg:m-8 sm:flex sm:flex-wrap sm:justify-center md:flex md:flex-wrap md:justify-center ">
             <div className="flex justify-end bg-base-100 shadow-xl lg:mr-4 md:w-full md:h-72">
               <img
@@ -125,7 +125,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="py-8">
+        <div className="py-8 lg:max-w-screen-xl lg:m-auto">
           <div className=" lg:grid lg:grid-cols-2 lg:m-8 sm:flex sm:flex-wrap sm:justify-center md:flex md:flex-wrap md:justify-center">
             <div className="flex justify-end bg-base-100 shadow-xl lg:mr-4  md:w-full md:h-72">
               <img
@@ -170,7 +170,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="py-8">
+        <div className="py-8 lg:max-w-screen-xl lg:m-auto">
           <div className="lg:grid lg:grid-cols-2 lg:m-8 sm:flex sm:flex-wrap sm:justify-center md:flex md:flex-wrap md:justify-center ">
             <div className="flex justify-end bg-base-100 shadow-xl lg:mr-4 md:w-full md:h-72">
               <img
