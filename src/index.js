@@ -13,7 +13,7 @@ root.render(
       defer
       type="text/javascript"
     ></script>
-    ;
+
     <App />
   </BrowserRouter>
 );
