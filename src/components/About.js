@@ -65,6 +65,14 @@ function About() {
                 <UilGithub className="m-1" /> Git & GitHub
               </div>
             </div>
+            <h3 className="text-md md:text-xl lg:text-xl font-bold p-4">
+              Technologies I'm currently learning:
+            </h3>
+            <div className="flex flex-wrap gap-6 p-6 justify-left">
+              <div className="badge badge-primary">TypeScript</div>
+              <div className="badge badge-primary">Next.js</div>
+              <div className="badge badge-primary">Formik</div>
+            </div>
           </div>
         </div>
       </div>
