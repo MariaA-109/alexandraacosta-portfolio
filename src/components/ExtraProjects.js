@@ -1,5 +1,4 @@
 import React from "react";
-
 import cookbook from "../img/cookbook.png";
 import tajam from "../img/tajam.png";
 import planner from "../img/daily.png";

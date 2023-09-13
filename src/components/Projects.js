@@ -1,6 +1,5 @@
 import React from "react";
 import animal from "../img/animal.png";
-import pokemon from "../img/pokemon.png";
 import heyDaisy from "../img/heyDaisy.png";
 import weather from "../img/weather.png";
 
@@ -8,9 +7,7 @@ function Projects() {
   const handleButtonClickLiveDaisy = () => {
     window.open("https://heydaisy-frontend.onrender.com/", "_blank");
   };
-  const handleButtonClickLivePokemon = () => {
-    window.open("https://pokefight-wbs-wdg10.netlify.app/", "_blank");
-  };
+
   const handleButtonClickLiveAnimal = () => {
     window.open("https://main--fancy-cuchufli-e21b53.netlify.app/", "_blank");
   };
@@ -18,9 +15,6 @@ function Projects() {
     window.open("https://weather-app-colors.netlify.app", "_blank");
   };
 
-  const handleButtonClickPokemon = () => {
-    window.open("https://github.com/MariaA-109/pokefight-frontend", "_blank");
-  };
   const handleButtonClickAnimal = () => {
     window.open("https://github.com/MariaA-109/th-vermittlung", "_blank");
   };
