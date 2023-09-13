@@ -87,51 +87,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="py-8 lg:max-w-screen-xl lg:m-auto">
-          <div className="lg:grid lg:grid-cols-2 lg:m-8 sm:flex sm:flex-wrap sm:justify-center md:flex md:flex-wrap md:justify-center ">
-            <div className="flex justify-end bg-base-100 shadow-xl lg:mr-4 md:w-full md:h-72">
-              <img
-                src={pokemon}
-                alt="pokefight"
-                className="rounded-md w-full max-h-96 "
-              ></img>
-            </div>
-            <div className="card w-fit max-h-96 bg-base-100 shadow-xl align-center md:h-72 lg:ml-4">
-              <div className="card-body w-fit max-h-96 md:h-72 lg:ml-2 p-4">
-                <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 relative inline-block w-fit p-1">
-                  <h2 className="relative card-title"> Pokefight </h2>
-                </span>
-                <p className="text-justify text-sm md:text-base lg:text-base">
-                  is an application that integrates data from two APIs to
-                  provide users with comprehensive information about their
-                  favorite Pokémon. With access to stats, move sets and
-                  abilities, trainers can choose a pokémon to fight exciting
-                  battles.
-                </p>
-                <div className="flex flex-wrap gap-1 justify-start">
-                  <div className="badge badge-primary">React.js</div>
-                  <div className="badge badge-primary">Tailwindcss</div>
-                  <div className="badge badge-primary">MongoDB</div>
-                  <div className="badge badge-primary">API</div>
-                </div>
-                <div className="card-actions justify-end">
-                  <button
-                    className="btn btn-primary"
-                    onClick={handleButtonClickLivePokemon}
-                  >
-                    LIVE
-                  </button>
-                  <button
-                    className="btn btn-primary"
-                    onClick={handleButtonClickPokemon}
-                  >
-                    CODE
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
         <div className="py-8 lg:max-w-screen-xl lg:m-auto">
           <div className=" lg:grid lg:grid-cols-2 lg:m-8 sm:flex sm:flex-wrap sm:justify-center md:flex md:flex-wrap md:justify-center">
             <div className="flex justify-end bg-base-100 shadow-xl lg:mr-4  md:w-full md:h-72">
