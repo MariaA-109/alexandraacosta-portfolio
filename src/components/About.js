@@ -34,13 +34,15 @@ function About() {
               <br></br>I am driven to solve problems and actively learn various
               programming languages, frameworks and tools to create dynamic and
               user-friendly websites and applications.
-              <br></br> My social studies background equips me with valuable
-              skills in research, critical thinking, and effective
-              communication. Currently, I am looking for a new challenge as a
+              <br></br> At the moment, I'm collaborating with a mentor to
+              develop a
               <span class="ml-1 mr-1 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-50 relative inline-block">
-                <span class="relative"> Full Stack Web Developer </span>
+                <span class="relative"> SAAS solution </span>
               </span>
-              and I am open to work hybrid or remote.
+              aimed at streamlining content management for e-commerce companies
+              and providing scalability solutions for retail. I've been involved
+              in the project from the very beginning, primarily focusing on POS
+              (Point of Sale) programming.
             </p>
             <h3 className="text-md md:text-xl lg:text-xl font-bold p-4">
               Technologies I've been working with:
@@ -69,8 +71,10 @@ function About() {
               Technologies I'm currently learning:
             </h3>
             <div className="flex flex-wrap gap-6 p-6 justify-left">
-              <div className="badge badge-primary">TypeScript</div>
               <div className="badge badge-primary">Next.js</div>
+              <div className="badge badge-primary">TypeScript</div>
+              <div className="badge badge-primary">PostgreSQL</div>
+              <div className="badge badge-primary">Mantine</div>
               <div className="badge badge-primary">Formik</div>
             </div>
           </div>
