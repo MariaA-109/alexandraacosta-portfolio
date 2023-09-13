@@ -1,5 +1,5 @@
 import React from "react";
-import weatherCloudy from "../img/weather-cloudy.png";
+
 import cookbook from "../img/cookbook.png";
 import tajam from "../img/tajam.png";
 import planner from "../img/daily.png";
@@ -15,9 +15,6 @@ function ExtraProjects() {
       </div>
       <div className="flex justify-center py-8 h-44 md:h-auto lg:h-auto">
         <div className="carousel rounded-box w-3/4 ">
-          <div className="carousel-item w-1/2">
-            <img src={weatherCloudy} alt="weather app" className="w-full" />
-          </div>
           <div className="carousel-item w-1/2">
             <img src={cookbook} alt="cookbook" className="w-full" />
           </div>
