@@ -1,6 +1,4 @@
 import React from "react";
-import { UilImport } from "@iconscout/react-unicons";
-import { useState, useEffect } from "react";
 
 function Navbar() {
   <script
@@ -9,21 +7,6 @@ function Navbar() {
     defer
     type="text/javascript"
   ></script>;
-  const [isMobile, setIsMobile] = useState(false);
-
-  const handleResize = () => {
-    setIsMobile(window.innerWidth <= 1023);
-  };
-
-  useEffect(() => {
-    window.addEventListener("resize", handleResize);
-
-    handleResize();
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
 
   const handleAboutBtn = () => {
     const projectSection = document.getElementById("about");
