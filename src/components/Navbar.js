@@ -48,7 +48,7 @@ function Navbar() {
     <div className="navbar bg-base-100 p-6 ml-2 mr-2">
       <div className="flex-1">
         <a
-          href="/CV-Acosta.pdf"
+          href="/src/pdf/CV-Acosta.pdf"
           download
           className="btn btn-primary normal-case sm:text-sm lg:text-lg"
         >
