@@ -46,15 +46,6 @@ function Navbar() {
 
   return (
     <div className="navbar bg-base-100 p-6 ml-2 mr-2">
-      <div className="flex-1">
-        <a
-          href="/src/pdf/CV-Acosta.pdf"
-          download
-          className="btn btn-primary normal-case sm:text-sm lg:text-lg"
-        >
-          <UilImport size={18} /> {isMobile ? "CV" : "Resume"}
-        </a>
-      </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1 sm:text-sm lg:text-lg">
           <li className="ml-2">
