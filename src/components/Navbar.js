@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../img/logo.png";
 
 function Navbar() {
   <script
@@ -31,7 +30,6 @@ function Navbar() {
   return (
     <div className="navbar bg-base-100 p-6 ml-2 mr-2">
       <div className="flex-none">
-        <img src={logo} alt="logo" className="w-25 h-20"></img>
         <ul className="menu menu-horizontal px-1 sm:text-sm lg:text-lg">
           <li className="ml-2">
             <button onClick={handleAboutBtn} className="btn-secondary">
